@@ -1,0 +1,4 @@
+site
+media
+*/*.swp
+*.swp

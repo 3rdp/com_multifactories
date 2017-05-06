@@ -1,0 +1,20 @@
+{
+  "name": "Multifactories",
+  "description": "No Description",
+  "projectName": "multifactories",
+  "author": {
+    "name": "3rdp",
+    "email": "third.pancake16@gmail.com",
+    "url": "github.com/3rdp"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": "",
+  "readme": "No Description",
+  "version": "1.0.0",
+  "dependencies": {
+  }
+}
