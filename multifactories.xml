@@ -37,11 +37,7 @@
     <folder>views</folder>
     <filename>multifactories.php</filename>
     <filename>controller.php</filename>
-    <filename>composer.json</filename>
     <filename>router.php</filename>
-    <filename>package.json</filename>
-    <filename>gulpfile.js</filename>
-    <filename>bower.json</filename>
   </files>
 
   <media folder="media" destination="multifactories">
@@ -59,7 +55,7 @@
     <menu img="class:multifactories">com_multifactories</menu>
     <submenu>
       <menu link="option=com_multifactories&amp;view=crud" view="crud" img="class:crud" alt="Multifactories/Crud">com_multifactories_crud</menu><menu link="option=com_multifactories&amp;view=cities" view="cities" img="class:cities" alt="Multifactories/Cities">com_multifactories_cities</menu>
-    	<menu link="index.php?option=com_multifactories&amp;view=crudfactories" view="crudfactories" img="class:crudfactories" alt="Multifactories/Crudfactories">com_multifactories_crudfactories</menu>
+    	<menu link="option=com_multifactories&amp;view=crudfactories" view="crudfactories" img="class:crudfactories" alt="Multifactories/Crudfactories">com_multifactories_crudfactories</menu>
 		</submenu>
     <files folder="admin">
       <folder>assets</folder>
@@ -74,10 +70,6 @@
       <filename>multifactories.php</filename>
       <filename>config.xml</filename>
       <filename>controller.php</filename>
-      <filename>composer.json</filename>
-      <filename>package.json</filename>
-      <filename>gulpfile.js</filename>
-      <filename>bower.json</filename>
     </files>
 
     <languages folder="admin">
