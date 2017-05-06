@@ -29,7 +29,7 @@ if ($saveOrder){
 }
 ?>
 
-<form action="<?php echo JRoute::_('index.php?option=com_multifactories&view=crudfactories'); ?>" method="post" name="adminForm" id="adminForm">
+<form data-msg="sad" action="<?php echo JRoute::_('index.php?option=com_multifactories&view=crudfactories'); ?>" method="post" name="adminForm" id="adminForm">
 	<div id="j-sidebar-container" class="span2">
 		<?php echo $this->sidebar; ?>
 	</div>
@@ -84,7 +84,7 @@ if ($saveOrder){
 										<?php echo JHtml::_('jgrid.checkedout', $i, $item->editor, $item->checked_out_time, 'crudfactories.', $canCheckin); ?>
 									<?php endif; ?>
 									<?php if ($canEdit) : ?>
-										<a href="<?php echo JRoute::_('index.php?option=com_multifactories&task=crudfactories.edit&id=' . (int) $item->id); ?>">
+										<a href="<?php echo JRoute::_('index.php?option=com_multifactories&task=multifactory.edit&id=' . (int) $item->id); ?>">
 											<?php echo $this->escape($item->name); ?></a>
 									<?php else : ?>
 										<?php echo $this->escape($item->name); ?>
