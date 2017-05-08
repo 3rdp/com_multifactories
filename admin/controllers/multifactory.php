@@ -29,7 +29,19 @@ class MultifactoriesControllerMultifactory extends JControllerForm{
 
     // Get the data from POST
     $data    = $this->input->post->get('jform', array(), 'array');
-    return parent::save($key, $urlVar);
+    $return = parent::save($key, $urlVar);
+    $this->redirectTo('crudfactories');
+    return $return;
+  }
+
+  public function cancel($key = null, $urlVar = null) {
+    $return = parent::cancel($key, $urlVar);
+    $this->redirectTo('crudfactories');
+    return $return;
+  }
+
+  private function redirectTo($view) {
+    $this->setRedirect(JRoute::_('index.php?option=com_multifactories&view=' . $view, false));
   }
 
   /**
