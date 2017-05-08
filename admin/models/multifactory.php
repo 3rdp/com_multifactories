@@ -74,7 +74,7 @@ class MultifactoriesModelMultifactory extends JModelAdmin
     {
         // Check the session for previously entered form data.
         $data = JFactory::getApplication()->getUserState(
-            'com_helloworld.edit.helloworld.data',
+            'com_multifactories.edit.multifactory.data',
             array()
         );
  

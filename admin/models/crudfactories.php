@@ -45,7 +45,7 @@ class MultifactoriesModelCrudfactories extends JModelList{
     $db=$this->getDbo();
     $query=$db->getQuery(true);
     $query->select([
-      
+      'a.id',
       'a.name',
       'a.alias',
       
