@@ -54,8 +54,8 @@
   <administration>
     <menu img="class:multifactories">com_multifactories</menu>
     <submenu>
-      <menu link="option=com_multifactories&amp;view=crud" view="crud" img="class:crud" alt="Multifactories/Crud">com_multifactories_crud</menu><menu link="option=com_multifactories&amp;view=cities" view="cities" img="class:cities" alt="Multifactories/Cities">com_multifactories_cities</menu>
-    	<menu link="option=com_multifactories&amp;view=crudfactories" view="crudfactories" img="class:crudfactories" alt="Multifactories/Crudfactories">com_multifactories_crudfactories</menu>
+        <menu link="option=com_multifactories&amp;view=cities" view="cities" img="class:cities" alt="Multifactories/Cities">com_multifactories_cities</menu>
+        <menu link="option=com_multifactories&amp;view=crudfactories" view="crudfactories" img="class:crudfactories" alt="Multifactories/Crudfactories">com_multifactories_crudfactories</menu>
 		</submenu>
     <files folder="admin">
       <folder>assets</folder>
