@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset
+		name="fields"
+		addfieldpath="/administrator/components/com_multifactories/models/fields"
+		addrulepath="/administrator/components/com_multifactories/models/rules">
+		
+		<field
+			name="subdomain_name"
+			type="text"
+			default=""
+			class="form-control" 
+			required="required"
+			label="COM_MULTIFACTORIES_FIELD_SUBDOMAIN_NAME_LABEL"
+			description="COM_MULTIFACTORIES_FIELD_SUBDOMAIN_NAME_DESC"
+		/>
+		 
+		<field
+			name="factory_id"
+			type="integer"
+			default=""
+			class="form-control" 
+			required="required"
+			label="COM_MULTIFACTORIES_FIELD_FACTORY_ID_LABEL"
+			description="COM_MULTIFACTORIES_FIELD_FACTORY_ID_DESC"
+		/>
+		 
+	</fieldset>
+</form>

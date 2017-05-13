@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter" addfieldpath="/administrator/components/com_multifactories/models/fields">
+		<field
+			name="search"
+			type="text"
+			label="COM_MULTIFACTORIES_SEARCH_IN_TITLE"
+			description="COM_MULTIFACTORIES_SEARCH_IN_TITLE"
+			hint="JSEARCH_FILTER"
+			class="js-stools-search-string"
+		/>
+	</fields>
+	<fields name="list">
+		<field
+			name="fullordering"
+			type="list"
+			label="JGLOBAL_SORT_BY"
+			statuses="*,0,1,2,-2"
+			description="JGLOBAL_SORT_BY"
+			onchange="this.form.submit();"
+			default="a.name ASC">
+			<option value="">JGLOBAL_SORT_BY</option>
+			<option value="a.subdomain_name ASC">COM_MULTIFACTORIES_HEADING_SUBDOMAIN_NAME_ASC</option>
+			<option value="a.subdomain_name DESC">COM_MULTIFACTORIES_HEADING_SUBDOMAIN_NAME_DESC</option>
+			
+			<option value="a.factory_id ASC">COM_MULTIFACTORIES_HEADING_FACTORY_ID_ASC</option>
+			<option value="a.factory_id DESC">COM_MULTIFACTORIES_HEADING_FACTORY_ID_DESC</option>
+			
+		</field>
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="25"
+			label="COM_MULTIFACTORIES_LIST_LIMIT"
+			description="COM_MULTIFACTORIES_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"/>
+	</fields>
+</form>
