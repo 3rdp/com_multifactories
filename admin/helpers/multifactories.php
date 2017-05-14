@@ -25,14 +25,14 @@ class MultifactoriesHelper extends JHelperContent{
 	 */
 	public static function addSubmenu($vName){
 		JHtmlSidebar::addEntry(
-			JText::_('COM_MULTIFACTORIES_SUBMENU_MULTIFACTORIES'),
-			'index.php?option=com_multifactories&view=multifactories',
-			$vName == 'multifactories'
-		);
-		JHtmlSidebar::addEntry(
 			JText::_('COM_MULTIFACTORIES_SUBMENU_CRUDFACTORIES'),
 			'index.php?option=com_multifactories&view=crudfactories',
 			$vName == 'crudfactories'
+		);
+		JHtmlSidebar::addEntry(
+			JText::_('COM_MULTIFACTORIES_SUBMENU_CITIES'),
+			'index.php?option=com_multifactories&view=cities',
+			$vName == 'cities'
 		);
 		/*--EOS EndOfSection: Dont't remove for future submenus generation--*/
 	}
